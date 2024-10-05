@@ -1,0 +1,5 @@
+name: MERN-app
+version: 1.0
+created-by: Trung
+provider: HUST
+entry-definitions: definitions/definitions.yaml

@@ -1,0 +1,15 @@
+vdus:
+  - name: MERN-app
+    min_number_of_instance: 1
+    max_number_of_instance: 3
+    k8s_resource_links:
+      deployment:
+        - link: k8s_resources/mongo_deployment.yaml
+        - link: k8s_resources/web_deployment.yaml
+      service:
+        - link: k8s_resources/mongo_service.yaml
+        - link: k8s_resources/web_service.yaml
+      configMap:
+        - link: k8s_resources/configMap.yaml
+      secret:
+        - link: k8s_resources/secret.yaml
